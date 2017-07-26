@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
 	QApplication a(argc, argv);
 	//QString pic_path(QApplication::applicationDirPath() + "/Resources/SplashScreen/giphy.gif");
 	MySplashScreen initScreen;
+	//change trials
 	initScreen.show();
 	a.processEvents();
 	CrapFG w;
